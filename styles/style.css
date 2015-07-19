@@ -1,27 +1,29 @@
 
 
+body {
+    padding-top: 50px;
+}
 
-.container-fluid .container {
+.container-fluid {
     font-size: 0.9em;
 }
 
-body {
-    padding-top: 70px;
-}
 
 .navbar-brand span.fa {
     font-size: 1.2em;
     margin-right: 8px;
-
 }
+
 
 .nav-tabs {
     border-radius: 4px 4px 0 0;
     box-shadow: 0 0 10px #000;
     font-size: 1em;
     letter-spacing: 1px;
+}
 
-
+.navbar-inverse .nav-menu {
+    padding-left: 20px;
 }
 
 ul.nav-tabs.nav-justified>li {
@@ -31,7 +33,7 @@ ul.nav-tabs.nav-justified>li {
 
 
 ul.nav-tabs.nav-justified>li>a {
-    margin-bottom: 0px;
+    margin-bottom: 0;
     border-radius: 4px 4px 0 0;
 }
 
@@ -39,7 +41,6 @@ ul.nav-tabs.nav-justified>.active>a, ul.nav-tabs.nav-justified>.active>a:hover {
     border-color:cadetblue;
     background-color: cadetblue;
     color: white;
-
 }
 
 .btn.save-btn{
@@ -55,12 +56,10 @@ a.navbar-link{
     margin-right:16px;
 }
 
-.modal-style{
-    background-color: cadetblue;
+.modal-content{
+    background-color:whitesmoke;
 }
-section{
-    margin: 20px 0;
-}
+
 
 #home {
     max-width: 750px;
@@ -89,8 +88,7 @@ ul.options{
     background-color: cadetblue;
     font-size: 1.1em;
     font-weight: 700;
-    padding: 20px;
-
+    padding:10px;
 }
 
 h4{

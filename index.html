@@ -2,16 +2,24 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Guest Home Page">
+    <meta name="author" content="Taranjeet Singh">
+
+
 
     <title>Foody-Flavors</title>
 
-    <!-- Bootstrap CSS libraries-->
+    <!-- CSS libraries -->
+    <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" type="text/css" href="styles/lib/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="styles/lib/bootstrap-theme.min.css">
+
+    <!-- Font-Awesome core CSS -->
     <link rel="stylesheet" type="text/css" href="styles/fonts/font-awesome-4.3.0/css/font-awesome.min.css">
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="styles/style.css">
 
     <!-- HTML5 shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -22,10 +30,9 @@
     <![endif]-->
 </head>
 
-
-
+<body>
 <!--Fixed-to-Top Navigation Bar-->
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
         <!-- Brand (Foody-Flavors, here) and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -47,7 +54,7 @@
 </nav>
 
 
-<!-- Section containing Modal for 'Confirm Reservation Cancellation'-->
+<!-- Modal for 'Confirm Reservation Cancellation'-->
 <section>
     <div class="modal fade" id="modalConfirmCancel" tabindex="-1" role="dialog" aria-labelledby="cancelReservation">
         <div class="modal-dialog modal-sm" role="document">
@@ -68,7 +75,7 @@
     </div>
 </section>
 
-<!-- Section containing Modal for 'Owner Login' -->
+<!-- Modal for 'Owner Login' -->
 <section>
     <div class="modal fade" id="modalOwnerLogin" tabindex="-1" role="dialog" aria-labelledby="ownerLogin">
         <div class="modal-dialog" role="document">
@@ -102,8 +109,7 @@
 </section>
 
 
-<!--Section containing Reservation Forms for customer/guest user -->
-
+<!--Page Content for guest user -->
 <section>
     <div class="container" id="home">
 
@@ -117,8 +123,9 @@
 
         <!--Tab Panes-->
         <div class="tab-content" id="guest-forms">
+
+            <!--Make Reservation form-->
             <div role = "tabpanel" class="tab-pane active" id="tab-make-reservation">
-                <!--Make Reservation form-->
                 <h4>Make a Reservation</h4>
                 <form role="form">
                     <div class="row">
@@ -167,8 +174,8 @@
                 </form>
             </div>
 
+            <!--Change Reservation form-->
             <div role = "tabpanel" class="tab-pane" id="tab-change-reservation">
-                <!--Change Reservation form-->
                 <h4>Change Existing Reservation</h4>
                 <form role="form" >
                     <div class="row">
@@ -186,9 +193,9 @@
                     </div>
                     </form>
 
+                    <!--Edit Reservation form-->
                     <div class="tab-content" id="edit-form">
                         <div class="tab-pane" role="tabpanel" id="tab-edit-reservation">
-                            <!--Edit Reservation form-->
                             <h4>Edit Reservation</h4>
                             <form role="form">
                                 <div class="row">
@@ -253,10 +260,12 @@
 
 
 
-<!-- JavaScript libraries-->
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script type="text/javascript" src="scripts/lib/jquery-1.11.3.min.js"></script>
-<script type="text/javascript" src="scripts/lib/bootstrap.min.js"></script>
+    <!-- JavaScript libraries-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script type="text/javascript" src="scripts/lib/jquery-1.11.3.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script type="text/javascript" src="scripts/lib/bootstrap.min.js"></script>
 
 </body>
 
